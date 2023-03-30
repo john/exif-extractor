@@ -21,7 +21,7 @@ Resources:
         Properties:
             CodeUri: extractor/build/
             Handler: app.lambda_handler
-            Runtime: python3.6
+            Runtime: python3.9
             Policies:
                - DynamoDBCrudPolicy:
                     TableName: !Ref MetadataTable
